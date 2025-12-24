@@ -18,8 +18,8 @@ title_format   = "Yazi: {cwd}"
 
 [preview]
 tab_size        = 2
-max_width       = 600
-max_height      = 900
+max_width       = 900
+max_height      = 1200
 cache_dir       = ""
 image_filter    = "triangle"
 image_quality   = 75

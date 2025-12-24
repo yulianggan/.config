@@ -907,10 +907,10 @@ def main():
         ("Paths Writable", lambda: ensure_paths_writable(["~", "~/.config", "~/.config/bin"])),
         ("System Build Tools", ensure_system_build_tools),
         ("NPM Available", ensure_npm_available),
-        ("Repo ~/.config", create_repo_action("~/.config", "theniceboy/.config", must_exist=True)),
-        ("Repo ~/.config/nvim", create_repo_action("~/.config/nvim", "theniceboy/nvim")),
-        ("Repo ~/.sconfig", create_repo_action("~/.sconfig", "theniceboy/.sconfig")),
-        ("Repo ~/Github/mac-ctrl", create_repo_action("~/Github/mac-ctrl", "theniceboy/mac-ctrl")),
+        # ("Repo ~/.config", create_repo_action("~/.config", "theniceboy/.config", must_exist=True)),
+        # ("Repo ~/.config/nvim", create_repo_action("~/.config/nvim", "theniceboy/nvim")),
+        # ("Repo ~/.sconfig", create_repo_action("~/.sconfig", "theniceboy/.sconfig")),
+        # ("Repo ~/Github/mac-ctrl", create_repo_action("~/Github/mac-ctrl", "theniceboy/mac-ctrl")),
     ]
 
     for name, action in pre_steps:
